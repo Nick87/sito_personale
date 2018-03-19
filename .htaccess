@@ -1,0 +1,21 @@
+ErrorDocument 404 http://www.nicoladomingo.it
+
+#Prevent Directory Listing
+IndexIgnore *
+
+RewriteEngine on
+
+RewriteBase /
+
+# rimuove '/' finale
+RewriteCond %{THE_REQUEST} ^GET\ (.*)/\ HTTP
+RewriteRule (.*)index\.php http://www\.nicoladomingo\.it [R=301,L]
+
+# rimuove 'index.php' finale
+# RewriteCond %{THE_REQUEST} ^GET\ .*/index\.php\ HTTP
+# RewriteRule (.*)index\.php http://www\.nicoladomingo\.it [R=301,L]
+
+# redirigere nicoladomingo.it a www.nicoladomingo.it per evitare contenuti
+# duplicati e non essere penalizzati dai motori di ricerca
+RewriteCond %{HTTP_HOST} ^nicoladomingo\.it [NC]
+RewriteRule ^nicoladomingo\.it(.*) http://www.nicoladomingo.it/$1 [R=301,L]

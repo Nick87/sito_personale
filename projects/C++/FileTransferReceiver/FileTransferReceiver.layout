@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="FileTransferReceiverApp.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="386" topLine="3" />
+	</File>
+	<File name="FileTransferReceiverApp.h" open="0" top="0" tabpos="3">
+		<Cursor position="230" topLine="0" />
+	</File>
+	<File name="FileTransferReceiverMain.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="379" topLine="0" />
+	</File>
+	<File name="FileTransferReceiverMain.h" open="1" top="0" tabpos="2">
+		<Cursor position="1266" topLine="18" />
+	</File>
+	<File name="GUIFrame.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1329" topLine="12" />
+	</File>
+	<File name="GUIFrame.h" open="0" top="0" tabpos="5">
+		<Cursor position="565" topLine="0" />
+	</File>
+	<File name="WxWizFrame.fbp" open="0" top="0" tabpos="0">
+		<Cursor position="640" topLine="0" />
+	</File>
+	<File name="resource.rc" open="0" top="0" tabpos="0">
+		<Cursor position="16" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
